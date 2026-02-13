@@ -14,13 +14,13 @@ pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 index = pc.Index("infosys-sprinboard") 
 
 # Embedding Model 
-embed_model = SentenceTransformer('all-MiniLM-L6-v2')
+embed_model = SentenceTransformer('BAAI/bge-large-en-v1.5')
 
 
 db_config={
     "host": "localhost",
     "user": "root",        
-    "password": "MYSQL", 
+    "password": "(db_pass)", 
     "database": "quality_auditor"
 }
 
@@ -120,6 +120,7 @@ def scoring():
 
 if __name__ == "__main__":
     scoring()
+
 
 
 
