@@ -6,7 +6,7 @@ import mysql.connector
 db_config={
     "host": "localhost",
     "user": "root",        
-    "password": "MYSQL", 
+    "password": "(db_Pass)", 
     "database": "quality_auditor"
 }
 
@@ -86,4 +86,5 @@ def transcribe_folder(folder_path):
 
 if __name__=="__main__":
     path = r"C:\Users\pratik p kakade\recordings"
+
     transcribe_folder(path)
