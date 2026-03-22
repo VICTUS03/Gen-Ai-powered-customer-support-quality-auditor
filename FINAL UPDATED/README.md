@@ -47,7 +47,7 @@ Instead of a single AI score, the system employs three specialized AI personas:
 Unlike standard masking, it won't redact random 16-digit product IDs; it only masks strings that pass the mathematical check for a real credit card.
 
 ### **2. Retrieval-Augmented Generation (RAG)**
-Company policies are embedded using `sentence-transformers/all-MiniLM-L6-v2` and stored in Pinecone. This ensures the AI audits based on **your** specific rules, not just general knowledge.
+Company policies are embedded using `sentence-transformers/ BAAI/bge-large-en-v1.5` and stored in Pinecone. This ensures the AI audits based on **your** specific rules, not just general knowledge.
 
 ---
 
