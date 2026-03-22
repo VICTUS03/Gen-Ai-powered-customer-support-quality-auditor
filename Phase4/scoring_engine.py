@@ -18,7 +18,7 @@ embed_model = SentenceTransformer('all-MiniLM-L6-v2')
 db_config = {
     "host": "localhost",
     "user": "root",        
-    "password": "MYSQL", 
+    "password": "****", 
     "database": "quality_auditor"
 }
 
