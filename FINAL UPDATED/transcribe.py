@@ -7,7 +7,7 @@ import os
 db_config = {
     "host": "localhost",
     "user": "root",
-    "password": "MYSQL",
+    "password": "****",
     "database": "quality_auditor"
 }
 
