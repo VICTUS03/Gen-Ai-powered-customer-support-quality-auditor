@@ -20,7 +20,7 @@ embed_model = SentenceTransformer('BAAI/bge-large-en-v1.5')
 db_config = {
     "host": "localhost",
     "user": "root",        
-    "password": "MYSQL", 
+    "password": "****", 
     "database": "quality_auditor"
 }
 
